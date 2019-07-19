@@ -1,0 +1,109 @@
+.navbar .mega-dropdown {
+position: static !important; }
+
+.navbar .dropdown-menu.mega-menu {
+width: 100%;
+border: none;
+border-radius: 0; 
+background-color: transparent; 
+}
+.navbar .dropdown-menu.mega-menu.v-2 a {
+padding: 15px 10px 10px 35px; }
+.navbar .dropdown-menu.mega-menu.v-2 a.news-title-2 {
+font-weight: 500;
+font-size: 1.1rem;
+line-height: 1.5;
+-webkit-transition: .2s;
+transition: .2s;
+}
+.navbar .dropdown-menu.mega-menu.v-2 .font-small {
+ font-size: 0.85rem; }
+ body{ font-family: 'helvetica', serif;}
+.nav-item{padding: 10px;} 
+footer.nb-footer {
+background: #222;
+border-top: 4px solid #b78c33; }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; }
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; }
+footer.nb-footer .about i {
+margin-top: 15px; }
+footer.nb-footer .about i {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #b78c33;
+border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about i:hover {
+background: #b78c33;
+color: #fff;
+border-color: #b78c33; }
+footer.nb-footer .footer-info-single {
+margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; }
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; }
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: solid #b78c33;
+padding: 7px 0;
+color: #999; }
+footer.nb-footer .copyright p  {
+margin: 0;
+padding: 0; }   
+.social-media ul{display: inline-block;}   
+.haha a:hover{ border-bottom: 0px; color: orange;  }
+.boy{background-color:  black}
+@media only screen and (max-width: 400px) {
+    nav .hide {
+        display: none;
+    }
+}
+.item {
+  position: relative;
+  overflow: hidden;
+  
+}
+.item img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
